@@ -60,5 +60,5 @@ def remove_pet_by_name(shop, name):
     for dog in shop["pets"]:
         if dog["name"] == name:
             to_delete.append(dog)
-            to_delete.clear()
-            return to_delete
+            to_delete.dict.clear
+            # to_delete.remove()
